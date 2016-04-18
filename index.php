@@ -7,7 +7,7 @@ $password = getenv("MYSQL_SERVICE_PASSWORD");
 // Create connection
 $conn = new mysqli($host.":".$port, $username, $password);
 
-echo "<h1>Evong's Test</h1>";
+echo "<h1>Evong's Test, Hello!</h1>";
 
 // Check connection
 if ($conn->connect_error) {
